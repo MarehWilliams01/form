@@ -15,6 +15,64 @@
             <header>
                 <h1>Entertainment Booking Form</h1>
             </header>
+            <main>
+                <label for="event-date">Date of Event</label>
+                <input type="date" name="event-date" id="event-date" required>
+            
+                <label for="event-time">Time of Event</label>
+                <input type="time" id="event-time" name="event-time" required>
+            
+                <label for="artist">Select Artist</label>
+                <select name="artist" id="artist-select" required>
+                    <option value=""></option>
+                    <option value="">Please select an option</option>
+                    <option value="artist1">Artist 1</option>
+                    <option value="artist2">Artist 2</option>
+                    <option value="artist3">Artist 3</option>
+                    <option value="artist4">Artist 4</option>
+                </select>
+            
+                <label for="event-description">Description of Event</label>
+                <input type="text" id="event-description" name="event-description" required>
+            
+                <label for="event-promoter">Promoter's Name</label>
+                <input type="text" name="event-promoter" id="event-promoter" required>
+            
+                <div class="venue">
+                    <label for="event-venue">Venue Address</label>
+                    <input type="text" id="event-venue" name="event-venue" placeholder="Street address" required>
+                    <input type="text" id="event-venue" name="event-venue" placeholder="Street address 2">
+                    <div class="venue-details">
+                        <input type="text" id="event-venue" name="event-venue" placeholder="City" required>
+                        <input type="text" id="event-venue" name="event-venue" placeholder="Region" required>
+                        <input type="text" id="event-venue" name="event-venue" placeholder="Postal / Zip code">
+                        <select name="country" id="country-select" required>
+                            <option value=""></option>
+                            <option value="country1">Ghana</option>
+                            <option value="country2">Nigeria</option>
+                            <option value="country3">Ethiopia</option>
+                            <option value="country4">Zimbabwe</option>
+                            <option value="country5">Togo</option>
+                            <option value="country6">Benin</option>
+                        </select>
+                    </div>
+                </div>
+            
+                <label for="event-capacity">Venue Capacity</label>
+                <input type="text" name="event-capacity" id="event-capacity" required>
+            
+                <label for="event-attendance">Expected Attendance</label>
+                <input type="text" name="expected-attendance" id="venue-attendance" required>
+            
+                <label for="event-performance">Type of Performance</label>
+                <select name="performance-type" id="event-performance">
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            
+                <label for="event-time">Set Time (in minutes)</label>
+                <input type="text" name="" id="">
+            </main>
         </form>
     </body>
 
