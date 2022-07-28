@@ -23,9 +23,9 @@
                 <input type="time" id="event-time" name="event-time" required>
             
                 <label for="artist">Select Artist</label>
-                <select name="artist" id="artist-select" required>
+                <select name="artist" id="artist" required>
                     <option value=""></option>
-                    <option value="">Please select an option</option>
+                    <option value="" selected>Please select an option</option>
                     <option value="artist1">Artist 1</option>
                     <option value="artist2">Artist 2</option>
                     <option value="artist3">Artist 3</option>
@@ -46,8 +46,10 @@
                         <input type="text" id="event-venue" name="event-venue" placeholder="City" required>
                         <input type="text" id="event-venue" name="event-venue" placeholder="Region" required>
                         <input type="text" id="event-venue" name="event-venue" placeholder="Postal / Zip code">
+                        <label for="country-select">Country</label>
                         <select name="country" id="country-select" required>
                             <option value=""></option>
+                            <option value="" selected>Please select an option</option>
                             <option value="country1">Ghana</option>
                             <option value="country2">Nigeria</option>
                             <option value="country3">Ethiopia</option>
@@ -65,14 +67,37 @@
                 <input type="text" name="expected-attendance" id="venue-attendance" required>
             
                 <label for="event-performance">Type of Performance</label>
-                <select name="performance-type" id="event-performance">
+                <select name="performance-type" id="event-performance" required>
                     <option value=""></option>
-                    <option value=""></option>
+                    <option value="" selected>Please select an option</option>
+                    <option value="option1">Solo Band</option>
+                    <option value="option2">Full Band</option>
                 </select>
             
                 <label for="event-time">Set Time (in minutes)</label>
-                <input type="text" name="" id="">
+                <input type="datetime" name="time-minutes" id="event-time" required>
+                
+                <label for="event-contact">Contact Person</label>
+                <input type="text" name="contact-person" id="event-contact" placeholder="First" required>
+                <input type="text" name="contact-person" id="event-contact" placeholder="Second" required>
+                
+                <label for="event-contact-email">Contact Email</label>
+                <input type="email" name="contact-email" id="event-contact-email" required>
+                
+                <label for="event-contact-number">Contact Number</label>
+                <input type="tel" name="contact-number" id="event-contact-number" required>
+                
+                <p>Will this event be recorded?</p>
+                <div>
+                    <input type="radio" name="event-recording" id="event-recording" value="yes" checked>
+                    <label for="event-recording">Yes</label>
+                    <input type="radio" name="event-recording" id="event-recording" value="no">
+                    <label for="event-recording">No</label>
+                </div>
+                
+                <button>Send</button>
             </main>
+
         </form>
     </body>
 
