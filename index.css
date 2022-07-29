@@ -19,8 +19,8 @@ form {
     flex-direction: column;
     width: 70em;
     height: 79vh;
-        background-color: #3D3C42;
+    background-color: #3D3C42;
         border: 1px solid red;
-        margin: 0px 20px 10px 30px;
+    padding: 0px 20px 10px 30px;
+        border-radius: 2%;
 }
-
