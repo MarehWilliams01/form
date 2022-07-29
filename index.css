@@ -1,23 +1,26 @@
 * {
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
-    }
-    
-    html {
+}
+
+html {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: #FCF8E8;
+    background-image: url(background.jpg);
 }
 
+
 form {
+    color: #E7F6F2;
     display: flex;
     flex-direction: column;
     width: 70em;
-    height: 99vh;
-    background-color: #94B49F;
-    padding: 0px 10px 5px 10px;
-    margin: 0;
+    height: 79vh;
+        background-color: #3D3C42;
+        border: 1px solid red;
+        margin: 0px 20px 10px 30px;
 }
+
