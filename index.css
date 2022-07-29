@@ -6,14 +6,12 @@ html {
     width: 100%;
     height: 100vh;
     background-color: #FCF8E8;
+    
 }
 
 form {
-    font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
     width: 70em;
     height: 99vh;
     background-color: #94B49F;
