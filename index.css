@@ -8,7 +8,7 @@ html {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    height: 200vh;
     background-image: url(background.jpg);
 }
 
@@ -18,9 +18,28 @@ form {
     display: flex;
     flex-direction: column;
     width: 70em;
-    height: 79vh;
+    height: 140vh;
     background-color: #3D3C42;
-        border: 1px solid red;
-    padding: 0px 20px 10px 30px;
+    padding: 0px 30px 10px 30px;
         border-radius: 2%;
+}
+header h1 {
+    margin: 21px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.event {
+    display: flex;
+    flex-direction: column;
+}
+
+.event:hover,
+.event:focus {
+    color: #A1B57D;
+}
+
+div label {
+    margin-bottom: 5px;
+    margin-top: 10px;
 }
