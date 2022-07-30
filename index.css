@@ -32,11 +32,12 @@ header h1 {
 .event {
     display: flex;
     flex-direction: column;
+    transition: ease-in-out 1s;
 }
 
 .event:hover,
 .event:focus {
-    color: #A1B57D;
+    color: #ECB365;
 }
 
 div label {
